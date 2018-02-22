@@ -139,4 +139,4 @@ ViewPay.setPostalCode("_code_postal_")
 ViewPay.setCategorie("_categorie_")
 ```
 
-NB: l'appel des ces méthodes doit être fait après l'initialisation et avant le checkVideo.
+NB: l'appel de ces méthodes doit être fait après l'initialisation et avant le checkVideo.
