@@ -81,8 +81,8 @@ Pour cela, vous devez appeler la méthode
 ViewPay.checkVideo();
 ```
 
-Si le checkVideo retourne un succès, alors la methode checkVideoSuccesVP() est appelée et vous pouvez mettre à jour l'interface (affichage bouton par exemple) pour proposer à l'utilisateur de "payer" la transaction en visionnant une vidéo. 
-Si le checkVideo retourne un erreur, alors c'est la methode checkVideoErrorVP() qui est appelée et vous pouvez faire le traitement correspondante.
+Si le checkVideo retourne un succès, alors la méthode checkVideoSuccesVP() est appelée et vous pouvez mettre à jour l'interface (affichage bouton par exemple) pour proposer à l'utilisateur de "payer" la transaction en visionnant une vidéo. 
+Si le checkVideo retourne une erreur, alors c'est la méthode checkVideoErrorVP() qui est appelée et vous pouvez faire le traitement correspondant.
 
 ```java
 @Override
@@ -99,7 +99,7 @@ public void checkVideoErrorVP() {
 ## Présenter la publicité
 
 A partir du résultat de l'appel du checkVideo, vous êtes en mesure de savoir si des publicités sont disponibles pour valider la transaction via ViewPay.
-Lorsque l'utilisateur va choisir l'option Viewpay en cliquant sur le bouton dans le paywall, l'étape suivante consiste donc à présenter l'AdSelector ViewPay à l'utilisateur pour lui permettre de choisir et visionner une publicité video.
+Lorsque l'utilisateur va choisir l'option Viewpay en cliquant sur le bouton dans le paywall, l'étape suivante consiste donc à présenter l'AdSelector ViewPay à l'utilisateur pour lui permettre de choisir et visionner une publicité vidéo.
 Pour cela, vous devez appeler la méthode 
 
 ```java
