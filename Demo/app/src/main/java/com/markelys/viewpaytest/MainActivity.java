@@ -29,7 +29,7 @@ public class MainActivity extends Activity implements ViewPayEventsListener {
         setContentView(R.layout.activity_main);
         checkPermissions();
 
-        ViewPay.init(MainActivity.this, "1672e275c4ee7f34");
+        ViewPay.init(MainActivity.this, "b23d3f0235ae89e4");
         showads = findViewById(R.id.showAds);
         checkVideo = findViewById(R.id.checkVideo);
         result = findViewById(R.id.result);
