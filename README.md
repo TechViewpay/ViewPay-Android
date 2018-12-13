@@ -131,12 +131,12 @@ Le SDK ViewPay remonte un certain nombre de meta données pour permettre une mei
 Si ces informations sont disponibles dans votre application vous pouvez facilement renseigner à partir des méthodes suivantes:
 
 ```java
-ViewPay.setUserGender("_genre_") 
-ViewPay.setUserAge(_age_) 
-ViewPay.setCountry("_pays_") 
-ViewPay.setLanguage("_language_") 
-ViewPay.setPostalCode("_code_postal_") 
-ViewPay.setCategorie("_categorie_")
+ViewPay.setUserGender("_genre_") // 0 pour Homme 1 pour Femme 2 pour autre.
+ViewPay.setUserAge("_age_") // Int.
+ViewPay.setCountry("_pays_") // Code ISO 3166-1 alpha-2 (ex: FR pour France).
+ViewPay.setLanguage("_language_") // Code ISO 639-1 (2 caractères, ex: fr pour français).
+ViewPay.setPostalCode("_code_postal_") // Int.
+ViewPay.setCategorie("_categorie_") // Int. News 0, Sports 1, Economy 2, Politics 3, Environment 4, Science 5, Technology 6, Others 7, Divertissement 8, Science-Fiction 9, Jeunesse	10, Série-télé 11, Comics / BD 12. Si vous avez des catégories spécifiques, contactez nous.
 ```
 
 NB: l'appel de ces méthodes doit être fait après l'initialisation et avant le checkVideo.
